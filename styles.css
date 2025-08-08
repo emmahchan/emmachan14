@@ -95,3 +95,15 @@ footer {
   margin-top: 2rem;
   font-size: 0.9rem;
 }
+
+.projects a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #001f3f; /* navy default */
+  transition: color 0.3s ease;
+}
+
+.projects a:hover {
+  color: #3498db; /* original light blue on hover */
+  text-decoration: underline;
+}
